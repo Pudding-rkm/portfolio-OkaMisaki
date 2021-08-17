@@ -243,9 +243,9 @@ legend {
    # Specify media element style
    # ================================================================= */
 
-img {
+/* img {
   border-style: none; /* Remove border when inside `a` element in IE 8/9/10 */
-}
+} */
 
 /* Add the correct vertical alignment in Chrome, Firefox, and Opera */
 progress {

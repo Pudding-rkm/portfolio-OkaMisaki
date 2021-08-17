@@ -32,6 +32,26 @@ li {
   display: none;
 }
 
+.start {
+	background: #FFF;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	z-index: 9999;
+	width: 280px;
+}
+
+
 /*--------------------------------
  レイアウト
 ---------------------------------*/
@@ -58,6 +78,16 @@ li {
  見出し
 ---------------------------------*/
 .title {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: .05em;
+  color: #333;
+}
+
+.title-work {
   font-size: 34px;
   font-weight: bold;
   line-height: 1;
@@ -138,6 +168,14 @@ li {
   width: 100%;
 }
 
+.phone_area {
+  display: none;
+}
+
+.pc_area{
+  display:block;
+}
+
 /*--------------------------------
  メインビジュアル
 ---------------------------------*/
@@ -150,11 +188,12 @@ li {
 }
 
 .main-visual-bg {
-  margin-top: 40px;
+  margin-top: 50px;
   position: absolute;
   width: 1100px;
   height: auto;
 }
+
 
 .main-visual-title {
   /* font-size: 60px;
@@ -243,7 +282,7 @@ li {
 } */ */ */
 
 
-.fuwafuwa {
+/* .fuwafuwa {
   animation: fuwafuwa 3s infinite ease-in-out .8s alternate;
   background: url(../img/ico-apple.svg) no-repeat center center / 60px auto;
   display: inline-block;
@@ -251,7 +290,7 @@ li {
   width: 70px;
   height: 70px;
   margin-top: 15px;
-}
+} */
  
 @keyframes fuwafuwa {
   0% {
@@ -273,12 +312,13 @@ li {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
-  /* justify-content: center;ギャラリーのときはあった方がいい */
+  justify-content: center;
 }
 
 .works-item {
   width: 31.74603%;
   margin-right: 1.58730%;
+  justify-content: center;
   margin-bottom: 40px;
   color: #333;
 }
@@ -294,11 +334,18 @@ li {
 
 .works-can img {
   border: 0px solid #e6e6e6;
-  width: 40%;
-  height: 40%;
-  left: 8%;
+  width: 100%;
+  height: 100%;
+  /* left: 8%; */
   position: relative;
+  margin: 0px;
+  margin-left: 0%;
 }
+
+.works-can-size {
+  margin-left: 5vw;
+}
+
 
 .works-name {
   font-size: 12px;
@@ -318,54 +365,278 @@ li {
 
 
 
+
+
+
+
 .good {
-  width:16vw;
+
+  top: 75%;
+  left: 23%;
   position: absolute;
-  top: 77%;
-  left: 25%;
+
+  /* margin: 3px; */
+  /* padding: 3px; */
+  text-align: center;
+
+	width: 9vw;
+	height: 9vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+
 }
 .good-ni {
-  width:18vw;
+
   position: absolute;
-  top: 75%;
-  left: 8%;
+  top: 60.5%;
+  left: 12%;
+  text-align: center;
+
+  width: 7vw;
+	height: 7vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
 }
 .good-san {
-  width:14vw;
+  width:9vw;
   position: absolute;
-  top: 80%;
-  left: 19%;
+  top: 74%;
+  left: 13%;
+
+  text-align: center;
+  width: 9vw;
+	height: 9vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
 }
 .good-si {
-  width:16vw;
+  /* width:6vw; */
   position: absolute;
   top: 67%;
-  left: 15%;
+  left: 19.5%;
+  text-align: center;
+
+  text-align: center;
+  width: 6vw;
+	height: 6vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
 }
 .good-go {
-  width:15vw;
+  /* width:9vw; */
   position: absolute;
-  top: 65%;
-  left: 22%;
+  top: 58%;
+  left: 25.5%;
+  text-align: center;
+
+  text-align: center;
+  width: 9vw;
+	height: 9vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+
 }
 .good-roku {
-  width:14vw;
+  /* width:9vw; */
   position: absolute;
-  top: 55%;
-  left: 26%;
+  top: 71%;
+  left: 32%;
+  text-align: center;
+
+  text-align: center;
+  width: 9vw;
+	height: 9vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
 }
 .good-nana {
-  width:17vw;
+  /* width:7.5vw; */
   position: absolute;
-  top: 59%;
-  left: 9%;
+  top: 53%;
+  left: 17%;
+  text-align: center;
+
+  text-align: center;
+  width: 7.5vw;
+	height: 7.5vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.good-hati {
+  /* width:8vw; */
+  position: absolute;
+  top: 49%;
+  left: 32.5%;
+  text-align: center;
+
+  text-align: center;
+  width: 8vw;
+	height: 8vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.work-size {
+  width: 40%;
+  height: 40%;
+
+}
+
+.hover-sample:hover{
+  color: #FF0000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.hover-work:hover{
+  color: #FF0000;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
-.work-size{
-  text-align: center;
+
+.btn {
+	/* position: relative;
+	width: 9vw;
+	height: 9vw;
+	margin: 0 auto;
+	display: block;
+	border-radius: 12px;
+	overflow: hidden;
+	cursor: pointer; */
+}
+.btn img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 100%;
+	display: block;
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+.btn:hover img:nth-of-type(2) {
+	opacity: 0;
+}
+
+.menuetest{
+  position: absolute;
+  left: 55%;
+  /* /* margin-left: 7%%; */
+  margin-top: 5%;
+  width: 80%;
+}
+
+/* .video{
+  width: 100%;
+  height: auto;
+  margin-top: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  align-items: center;
+  opacity: 1;
+  transform: translate(0, 0);
+  min-height: 50vh;
+} */
+
+.video {
+  position: relative;
+  height: 0;
+  padding: 30px 0 56.25%;
+  bottom: 5vw;
+
+  overflow: hidden;
+  }
+  
+  .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+ 
   width: 100%;
   height: 100%;
+  }
+
+ /* ギャラリー */
+  .out{
+    position: relative;
+}
+.in img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .3s;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+input{
+    display: none;
+}
+.in{
+    display: flex;
+    justify-content: center;
+}
+label span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    margin: -40px 0 0;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+label span::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #4287f5;
+    opacity: 0.5;
+    border-radius: 100%;
+}
+
+label input:checked + span::before{
+    background: #000;
+    opacity: 1;
+}
+
+label input:checked ~ img,label input:checked ~ a img{
+    opacity: 1;
+    z-index: 1;
 }
 
 /*--------------------------------
@@ -404,82 +675,70 @@ li {
 
 
 
+.imgsikill {
 
-.circle {
+  width: 5rem;
+  height: 5rem;
+  left: 40px;
+  top: 38px;
+  position: absolute;
+}
+
+
+@keyframes load {/*アニメーション*/
+  0% {
+    stroke-dashoffset: 0;
+  }
+}
+.progress {/*親要素*/
   position: relative;
-  width: 120px;
-  height: 120px;
-  background: rgb(222, 157, 45);
-  border-radius: 50%;
+  display: inline-block;
+  padding: 0;
   text-align: center;
-  overflow: hidden;
-  z-index: 1;
 }
-
-.circle::before {
-  content: "";
-  display: block;
+.progress > li {/*プログレスバーを包括する子要素*/
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #93A2AC;
+  font-weight: 100;
+  margin: 2rem;
+}
+.progress > li:before {/*カスタムデータ属性に設定したデータ名のテキストを表示*/
+  content: attr(data-name);
   position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+.progress > li:after {/*パーセンテージを表示*/
+  content: attr(data-percent);
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+.progress svg {/*プログレスバー*/
+  width: 10rem;
+  height: 10rem;
+}
+.progress svg:nth-child(2) {
+  position: absolute;
+  left: 0;
   top: 0;
-  left: -60px;
-  width: 120px;
-  height: 120px;
-  background: #999;
-  transform-origin: right 60px;
-  z-index: 2;
-  animation: rotate-circle-left 2s linear forwards;
+  transform: rotate(-90deg);
+}
+.progress svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 25;
+  stroke-dasharray: 629;
+  stroke: #fff;
+  opacity: .9;
+  animation: load 10s;
 }
 
-.circle::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0px;
-  left: 60px;
-  width: 120px;
-  height: 120px;
-  background: #999;
-  transform-origin: left 60px;
-  z-index: 3;
-  animation: rotate-circle-right 2s linear forwards;
-}
-
-.circle .circle-inner {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 100px;
-  height: 100px;
-  padding-top: 38px;
-  background: #fff;
-  border-radius: 50%;
-  z-index: 4;
-}
-
-@keyframes rotate-circle-right {
-  0%   {
-      transform: rotate(0deg);
-      background: #999;
-  }
-  50%  {
-      transform: rotate(180deg);
-      background: #999;
-  }
-  50.01% {
-      transform: rotate(360deg);
-      background: #333;
-  }
-  100% {
-      transform: rotate(360deg);
-      background: #333;
-  }
-}
-
-@keyframes rotate-circle-left {
-  0%   { transform: rotate(0deg); }
-  50%  { transform: rotate(0deg); }
-  100% { transform: rotate(180deg); }
-}
 
 /*--------------------------------
  About
@@ -553,6 +812,8 @@ li {
  下層：Worksページ
 ---------------------------------*/
 .article {
+
+  margin: 0 10vw 10px 10vw;
   padding: 80px 0;
 }
 
@@ -568,7 +829,12 @@ li {
 }
 
 .article-img {
+  margin-top: 0px;
   margin-bottom: 20px;
+  width: 90%;
+  align-items: center;
+
+
 }
 
 .article-body {
@@ -591,11 +857,91 @@ li {
 
 .home-link {
   text-align: center;
+  margin: 5vw;
 }
+
+.fv-intro{
+  font-size: 11px;
+  padding-top: 10vw;
+  margin-left: 10vw;
+  width: 25vw;
+  padding-right: 40px;
+}
+
+.data{
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.fv-img{
+  width: 55vw;
+  padding-top: 73px;
+}
+
+.pc{
+  height: 35vw;
+  margin: auto;
+}
+
+.first-view{
+
+  display: flex;
+}
+
+.h2-n{
+font-size: 24px;
+margin-bottom: 30px;
+}
+
+.concept-big{
+  color: #dc726d;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.concept-p{
+  width: 90%;
+  margin-bottom: 5vw;
+}
+
+.button:hover {
+  background-color: #59b1eb;
+}
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  bottom: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+  background-color: #333;
+  color: #fff;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
 
 /*media Queries 767
 ----------------------------------------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
   body {
     font-size: 13px;
     line-height: 1.7;
@@ -609,11 +955,33 @@ li {
     display: block;
   }
 
+  .main-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    text-align: center;
+  }
+
+  .main-visual-bg {
+    margin-top: 150px;
+    position: absolute;
+    width: 1100px;
+    height: auto;
+  }
+
   /* 見出し */
   .title {
+    margin-top: 40px;
     font-size: 26px;
     margin-bottom: 20px;
   }
+  .title-work {
+    margin-top: 130px;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
 
   /* レイアウト */
   .wrapper {
@@ -629,24 +997,112 @@ li {
   }
 
   /* ヘッダー */
-  .header .inner {
-    padding: 15px;
-  }
+ 
 
-  .header-logo {
-    font-size: 15px;
-    margin-right: 15px;
-  }
 
-  .header-nav-item:not(:last-child) {
-    margin-right: 10px;
-  }
 
-  .header-nav-item a {
-    font-size: 10px;
-  }
+/*　ハンバーガーメニューボタン　*/
+.hamburger {
+  display : block;
+  position: fixed;
+  z-index : 3;
+  right : 20px;
+  top   : 20px;
+  width : 42px;
+  height: 42px;
+  cursor: pointer;
+  text-align: center;
+}
+.hamburger span {
+  display : block;
+  position: absolute;
+  width   : 30px;
+  height  : 2px ;
+  left    : 6px;
+  background : #BBBBBB;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition   : 0.3s ease-in-out;
+  transition        : 0.3s ease-in-out;
+}
+.hamburger span:nth-child(1) {
+  top: 10px;
+}
+.hamburger span:nth-child(2) {
+  top: 20px;
+}
+.hamburger span:nth-child(3) {
+  top: 30px;
+}
 
-  .header-nav-item a:after {
+/* スマホメニューを開いてる時のボタン */
+.hamburger.active span:nth-child(1) {
+  top : 16px;
+  left: 6px;
+  background :#fff;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform   : rotate(-45deg);
+  transform        : rotate(-45deg);
+}
+
+.hamburger.active span:nth-child(2),
+.hamburger.active span:nth-child(3) {
+  top: 16px;
+  background :#fff;
+  -webkit-transform: rotate(45deg);
+  -moz-transform   : rotate(45deg);
+  transform        : rotate(45deg);
+}
+
+/* メニュー背景　*/
+nav.globalMenuSp {
+  position: fixed;
+  z-index : 2;
+  top  : 0;
+  left : 0;
+  color: #fff;
+  background: rgba( 71,70,73,0.6 );
+  text-align: center;
+  width: 100%;
+  transform: translateX(100%);
+  transition: all 0.6s;
+}
+
+nav.globalMenuSp ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+nav.globalMenuSp ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+  transition: .4s all;
+}
+nav.globalMenuSp ul li:last-child {
+  padding-bottom: 0;
+}
+nav.globalMenuSp ul li:hover{
+  background :#ddd;
+}
+
+nav.globalMenuSp ul li a {
+  display: block;
+  color: #fff;
+  padding: 1em 0;
+  text-decoration :none;
+}
+
+/* クリックでjQueryで追加・削除 */
+nav.globalMenuSp.active {
+  opacity: 100;
+  display: block;
+   transform: translateX(0%);
+}
+
+
+
+  .header-nav-item {
     display: none;
   }
 
@@ -667,6 +1123,14 @@ li {
     margin-bottom: 20px;
   }
 
+  .phone_area{
+    display:block;
+  }
+  .pc_area{
+    display:none;
+  }
+
+
   /* Works */
   .works-name {
     font-size: 10px;
@@ -686,9 +1150,184 @@ li {
     border: 0px solid #e6e6e6;
     width: 100%;
     height: 100%;
+    left: 0%;
+    /* right: -18px; */
     position: relative;
   }
 
+
+
+
+
+
+  .good {
+    /* width:17vw; */
+    top: 75%;
+    left: 47%;
+    position: absolute;
+
+    /* margin: 3px; */
+    /* padding: 3px; */
+    text-align: center;
+
+    width: 17vw;
+    height: 17vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-ni {
+    /* width:13vw; */
+    /* height: auto; */
+    position: absolute;
+    top: 60.5%;
+    left: 22%;
+    text-align: center;
+
+    width: 13vw;
+    height: 13vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-san {
+    /* width:16vw; */
+    position: absolute;
+    top: 73%;
+    left: 25%;
+    text-align: center;
+
+    width: 16vw;
+    height: 16vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-si {
+    width:12vw;
+    position: absolute;
+    top: 67.5%;
+    left: 38.5%;
+    text-align: center;
+
+    width: 12vw;
+    height: 12vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-go {
+    width:17vw;
+    position: absolute;
+    top: 59%;
+    left: 53.5%;
+    text-align: center;
+
+    width: 17vw;
+    height: 17vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+
+  }
+  .good-roku {
+    width:17vw;
+    position: absolute;
+    top: 71%;
+    left: 65%;
+    text-align: center;
+
+    width: 17vw;
+    height: 17vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-nana {
+    width:14.5vw;
+    position: absolute;
+    top: 53.5%;
+    left: 33%;
+    text-align: center;
+
+    width: 14.5vw;
+    height: 14.5vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .good-hati {
+    width:16vw;
+    position: absolute;
+    top: 49%;
+    left: 66%;
+    text-align: center;
+
+    width: 16vw;
+    height: 16vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .work-size {
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+
+  }
+
+
+  .btn {
+    /* position: relative; */
+    width: 17vw;
+    height: 17vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .btn img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: block;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+  }
+  .btn:hover img:nth-of-type(2) {
+    opacity: 0;
+  }
+
+  .menuetest{
+    position: absolute;
+    left: 55%;
+    /* /* margin-left: 7%%; */
+    margin-top: 5%;
+    width: 80%;
+  }
 
   /* Skill */
   .skill-list {
