@@ -52,6 +52,59 @@ li {
 }
 
 
+@font-face {
+	font-family: 'donut';
+	src: url(../fonts/DonauUppercase-Neue.ttf);
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'comforta';
+	src: url(../fonts/ComfortaaLight-MJ0v.ttf);
+	font-weight: 400;
+}
+
+
+.work-article {
+	/* position: absolute; */
+
+  /* max-width: 860px; */
+  /* margin: 0 auto; */
+  color: rgb(60, 55, 54);
+
+}
+
+.work-article h1 {
+
+font-family: 'comforta';
+text-align: center;
+font-size: 3rem;
+font-weight: 300;
+letter-spacing: 0.15em;
+line-height: 1.7;
+/* margin-top: 10%; */
+}
+
+.work-article h2 {
+
+	font-family: 'comforta';
+  text-align: center;
+font-size: 2rem;
+font-weight: 300;
+letter-spacing: 0.15em;
+line-height: 1.7;
+margin-top: 10%;
+}
+
+.work-article p {
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
 /*--------------------------------
  レイアウト
 ---------------------------------*/
@@ -78,6 +131,7 @@ li {
  見出し
 ---------------------------------*/
 .title {
+  font-family: 'comforta';
   font-size: 34px;
   font-weight: bold;
   line-height: 1;
@@ -88,6 +142,7 @@ li {
 }
 
 .title-work {
+  font-family: 'comforta';
   font-size: 34px;
   font-weight: bold;
   line-height: 1;
@@ -105,6 +160,7 @@ li {
 ヘッダー
 ---------------------------------*/
 .header {
+  font-family: 'comforta';
   position: fixed;
   top: 0;
   z-index: 1;
@@ -130,6 +186,10 @@ li {
 
 .header-logo a {
   color: #333;
+}
+
+.header-nav {
+font-family: 'comforta';
 }
 
 .header-nav-list {
@@ -180,6 +240,7 @@ li {
  メインビジュアル
 ---------------------------------*/
 .main-visual {
+  font-family: 'comforta';
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,6 +405,7 @@ li {
 
 .works-can-size {
   margin-left: 5vw;
+
 }
 
 
@@ -470,13 +532,13 @@ li {
 .good-nana {
   /* width:7.5vw; */
   position: absolute;
-  top: 53%;
-  left: 17%;
+  top: 63%;
+  left: 19%;
   text-align: center;
 
   text-align: center;
-  width: 7.5vw;
-	height: 7.5vw;
+  width: 7vw;
+	height: 7vw;
 	margin: 0 auto;
 	display: block;
 	border-radius: 12px;
@@ -548,10 +610,10 @@ li {
 
 .menuetest{
   position: absolute;
-  left: 55%;
+  left: 53%;
   /* /* margin-left: 7%%; */
-  margin-top: 5%;
-  width: 80%;
+  margin-top: 2%;
+  width: 90%;
 }
 
 /* .video{
@@ -578,9 +640,9 @@ li {
   
   .video iframe {
   position: absolute;
-  top: 0;
+  top: 2vw;
   left: 0;
- 
+
   width: 100%;
   height: 100%;
   }
@@ -677,10 +739,10 @@ label input:checked ~ img,label input:checked ~ a img{
 
 .imgsikill {
 
-  width: 5rem;
-  height: 5rem;
-  left: 40px;
-  top: 38px;
+  width: 5vw;
+  height: 5vw;
+  left: 24%;
+  top: 23%;
   position: absolute;
 }
 
@@ -721,8 +783,8 @@ label input:checked ~ img,label input:checked ~ a img{
   text-align: center;
 }
 .progress svg {/*プログレスバー*/
-  width: 10rem;
-  height: 10rem;
+  width: 10vw;
+  height: 10vw;
 }
 .progress svg:nth-child(2) {
   position: absolute;
@@ -813,8 +875,8 @@ label input:checked ~ img,label input:checked ~ a img{
 ---------------------------------*/
 .article {
 
-  margin: 0 10vw 10px 10vw;
-  padding: 80px 0;
+  margin: 10px 10vw 10px 10vw;
+  padding: 10px 0;
 }
 
 .article-inner {
@@ -862,24 +924,26 @@ label input:checked ~ img,label input:checked ~ a img{
 
 .fv-intro{
   font-size: 11px;
-  padding-top: 10vw;
-  margin-left: 10vw;
-  width: 25vw;
-  padding-right: 40px;
+  padding-top: 5vw;
+  margin-left: 6vw;
+  width: 23vw;
+  /* padding-right: 40px; */
 }
 
 .data{
-  font-weight: 600;
-  margin-bottom: 40px;
+  font-weight: 300;
+  margin-bottom: 10%;
+  line-height: 1.5;
 }
 
 .fv-img{
-  width: 55vw;
-  padding-top: 73px;
+  /* width: 55vw; */
+  /* padding-top: 73px; */
 }
 
 .pc{
-  height: 35vw;
+  width: 65vw;
+  /* height: 35vw; */
   margin: auto;
 }
 
@@ -890,7 +954,7 @@ label input:checked ~ img,label input:checked ~ a img{
 
 .h2-n{
 font-size: 24px;
-margin-bottom: 30px;
+margin-bottom: 2vw;
 }
 
 .concept-big{
@@ -900,10 +964,6 @@ margin-bottom: 30px;
   margin-bottom: 20px;
 }
 
-.concept-p{
-  width: 90%;
-  margin-bottom: 5vw;
-}
 
 .button:hover {
   background-color: #59b1eb;
@@ -1162,7 +1222,7 @@ nav.globalMenuSp.active {
 
   .good {
     /* width:17vw; */
-    top: 75%;
+    top: 83%;
     left: 47%;
     position: absolute;
 
@@ -1182,7 +1242,7 @@ nav.globalMenuSp.active {
     /* width:13vw; */
     /* height: auto; */
     position: absolute;
-    top: 60.5%;
+    top: 72%;
     left: 22%;
     text-align: center;
 
@@ -1197,7 +1257,7 @@ nav.globalMenuSp.active {
   .good-san {
     /* width:16vw; */
     position: absolute;
-    top: 73%;
+    top: 81%;
     left: 25%;
     text-align: center;
 
@@ -1227,7 +1287,7 @@ nav.globalMenuSp.active {
   .good-go {
     width:17vw;
     position: absolute;
-    top: 59%;
+    top: 71%;
     left: 53.5%;
     text-align: center;
 
@@ -1243,7 +1303,7 @@ nav.globalMenuSp.active {
   .good-roku {
     width:17vw;
     position: absolute;
-    top: 71%;
+    top: 80%;
     left: 65%;
     text-align: center;
 
@@ -1258,8 +1318,8 @@ nav.globalMenuSp.active {
   .good-nana {
     width:14.5vw;
     position: absolute;
-    top: 53.5%;
-    left: 33%;
+    top: 75.5%;
+    left: 38%;
     text-align: center;
 
     width: 14.5vw;
@@ -1274,7 +1334,7 @@ nav.globalMenuSp.active {
   .good-hati {
     width:16vw;
     position: absolute;
-    top: 49%;
+    top: 64%;
     left: 66%;
     text-align: center;
 
@@ -1293,6 +1353,11 @@ nav.globalMenuSp.active {
     height: 80%;
     margin: auto;
 
+  }
+
+  .works-can-size {
+    margin-left: 5vw;
+    margin-top: 50%;
   }
 
 
@@ -1323,7 +1388,7 @@ nav.globalMenuSp.active {
 
   .menuetest{
     position: absolute;
-    left: 55%;
+    left: 12%;
     /* /* margin-left: 7%%; */
     margin-top: 5%;
     width: 80%;
