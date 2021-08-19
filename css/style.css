@@ -930,6 +930,41 @@ label input:checked ~ img,label input:checked ~ a img{
   /* padding-right: 40px; */
 }
 
+.work-article-goods{
+  font-family: 'comforta';
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 100;
+  letter-spacing: 0.15em;
+  line-height: 1.7;
+  /* margin-top: 10%; */
+}
+
+.fv-intro-goods{
+  /* text-align: center; */
+  font-size: 1vw;
+  /* padding-top: 5vw; */
+  margin: auto;
+  width: 23vw;
+  /* padding-right: 40px; */
+}
+
+.fv-intro-goods h1{
+  /* text-align: center; */
+  font-size: 2vw;
+  /* padding-top: 5vw; */
+  margin: auto;
+  width: 23vw;
+  /* padding-right: 40px; */
+}
+
+.pc-goods{
+  width: 65vw;
+  /* height: 35vw; */
+  margin: 3vw;
+}
+
+
 .data{
   font-weight: 300;
   margin-bottom: 10%;
