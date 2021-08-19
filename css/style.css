@@ -64,6 +64,12 @@ li {
 	font-weight: 400;
 }
 
+@font-face {
+	font-family: 'MPLUS';
+	src: url(../fonts/MPLUS1p-Light.ttf);
+	font-weight: 400;
+}
+
 
 .work-article {
 	/* position: absolute; */
@@ -96,6 +102,29 @@ line-height: 1.7;
 margin-top: 10%;
 }
 
+.work-article-jap h1 {
+
+  font-family: 'MPLUS';
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 1.7;
+  /* margin-top: 10%; */
+  }
+  
+  .work-article-jap h2 {
+  
+    font-family: 'MPLUS';
+    text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  line-height: 1.7;
+  margin-top: 10%;
+  }
+  
+
 .work-article p {
   font-size: 0.9rem;
   letter-spacing: 0.1em;
@@ -121,6 +150,7 @@ margin-top: 10%;
 }
 
 .inner {
+  font-family: 'MPLUS';
   max-width: 1340px;
   margin: 0 auto;
   padding: 0 40px;
@@ -806,6 +836,7 @@ label input:checked ~ img,label input:checked ~ a img{
  About
 ---------------------------------*/
 .profile {
+  /* font-family: 'MPLUS'; */
   display: flex;
   flex-wrap: wrap;
   max-width: 800px;
@@ -820,6 +851,7 @@ label input:checked ~ img,label input:checked ~ a img{
   border-radius: 50%;
 }
 .profile-body {
+  font-family: 'MPLUS';
   flex: 1;
 }
 .profile-body p:not(:last-child) {
@@ -931,7 +963,7 @@ label input:checked ~ img,label input:checked ~ a img{
 }
 
 .work-article-goods{
-  font-family: 'comforta';
+  font-family: 'MPLUS';
   text-align: center;
   font-size: 1vw;
   font-weight: 100;
@@ -950,6 +982,7 @@ label input:checked ~ img,label input:checked ~ a img{
 }
 
 .fv-intro-goods h1{
+  font-family: 'MPLUS';
   /* text-align: center; */
   font-size: 2vw;
   /* padding-top: 5vw; */
@@ -992,10 +1025,17 @@ font-size: 24px;
 margin-bottom: 2vw;
 }
 
-.concept-big{
-  color: #dc726d;
+.h2-n-jap{
+  font-family: 'MPLUS';
+  font-size: 24px;
+  margin-bottom: 2vw;
+  }
+
+.concept-p{
+  font-family: 'MPLUS';
+  /* color: #dc726d; */
   font-size: 20px;
-  font-weight: 600;
+  /* font-weight: 600; */
   margin-bottom: 20px;
 }
 
@@ -1538,6 +1578,7 @@ nav.globalMenuSp.active {
 
   /* About */
   .profile {
+    /* font-family: 'MPLUS'; */
     display: block;
   }
   .profile-img {
