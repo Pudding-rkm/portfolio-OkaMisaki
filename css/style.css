@@ -454,7 +454,9 @@ font-family: 'comforta';
 
 
 
-
+.proto{
+  width: 20vw;
+}
 
 
 
@@ -689,6 +691,8 @@ font-family: 'comforta';
     transition: .3s;
 }
 img{
+  margin-left: auto;
+margin-right: auto;
     display: block;
     max-width: 100%;
     height: auto;
@@ -923,6 +927,8 @@ label input:checked ~ img,label input:checked ~ a img{
 }
 
 .article-img {
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0px;
   margin-bottom: 20px;
   width: 90%;
