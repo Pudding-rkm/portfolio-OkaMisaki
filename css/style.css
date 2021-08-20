@@ -1480,6 +1480,16 @@ nav.globalMenuSp.active {
   }
 
   /* Skill */
+
+  .imgsikill {
+
+    width: 7vw;
+    height: 7vw;
+    left: 27%;
+    top: 25%;
+    position: absolute;
+  }
+
   .skill-list {
     display: flex;
     flex-wrap: wrap;
