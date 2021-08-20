@@ -802,7 +802,7 @@ label input:checked ~ img,label input:checked ~ a img{
   text-align: center;
   color: #93A2AC;
   font-weight: 100;
-  margin: 2rem;
+  margin: 5vw;
 }
 .progress > li:before {/*カスタムデータ属性に設定したデータ名のテキストを表示*/
   content: attr(data-name);
