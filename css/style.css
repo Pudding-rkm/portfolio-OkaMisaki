@@ -138,7 +138,7 @@ margin-top: 10%;
 .scrollanime {opacity: 0;} /*一瞬表示されるのを防ぐ*/
 .fadeInDown {
     animation-name: fadeInDown;
-    animation-duration: 3s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
 @keyframes fadeInDown {
