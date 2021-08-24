@@ -995,7 +995,7 @@ label input:checked ~ img,label input:checked ~ a img{
   font-size: 11px;
   padding-top: 5vw;
   margin-left: 6vw;
-  width: 23vw;
+  width: 90vw;
   /* padding-right: 40px; */
 }
 
@@ -1041,10 +1041,7 @@ label input:checked ~ img,label input:checked ~ a img{
   line-height: 1.5;
 }
 
-.fv-img{
-  /* width: 55vw; */
-  /* padding-top: 73px; */
-}
+
 
 .pc{
   width: 65vw;
@@ -1052,8 +1049,12 @@ label input:checked ~ img,label input:checked ~ a img{
   margin: auto;
 }
 
-.first-view{
+.phone_img{
+  width: 45em;
+  margin: 2vw;
+}
 
+.first-view{
   display: flex;
 }
 
