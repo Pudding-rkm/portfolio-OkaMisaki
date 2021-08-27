@@ -1657,8 +1657,8 @@ nav.globalMenuSp.active {
   
   .good {
 
-    top: 83%;
-    left: 47%;
+    top: 75%;
+    left: 25%;
     position: absolute;
 
 
@@ -1675,12 +1675,12 @@ nav.globalMenuSp.active {
   .good-ni {
 
     position: absolute;
-    top: 72%;
-    left: 22%;
+    top: 59%;
+    left: 13%;
     text-align: center;
 
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
     margin: 0 auto;
     display: block;
     border-radius: 12px;
@@ -1690,8 +1690,8 @@ nav.globalMenuSp.active {
   .good-san {
 
     position: absolute;
-    top: 81%;
-    left: 25%;
+    top: 73%;
+    left: 16%;
     text-align: center;
 
     width: 6vw;
@@ -1720,8 +1720,8 @@ nav.globalMenuSp.active {
   .good-go {
     width:17vw;
     position: absolute;
-    top: 71%;
-    left: 53.5%;
+    top: 52%;
+    left: 29.5%;
     text-align: center;
 
     width: 6vw;
@@ -1736,8 +1736,8 @@ nav.globalMenuSp.active {
   .good-roku {
     width:17vw;
     position: absolute;
-    top: 80%;
-    left: 65%;
+    top: 70%;
+    left: 33%;
     text-align: center;
 
     width: 6vw;
@@ -1751,12 +1751,12 @@ nav.globalMenuSp.active {
   .good-nana {
     width:14.5vw;
     position: absolute;
-    top: 75.5%;
-    left: 38%;
+    top: 59.5%;
+    left: 22%;
     text-align: center;
 
-    width: 14.5vw;
-    height: 14.5vw;
+    width: 5.5vw;
+    height: 5.5vw;
     margin: 0 auto;
     display: block;
     border-radius: 12px;
