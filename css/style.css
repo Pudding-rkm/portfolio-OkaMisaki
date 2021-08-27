@@ -1652,17 +1652,16 @@ nav.globalMenuSp.active {
     padding: 50px 0;
   }
 }
-
+/* 
 @media screen and (max-width: 1440px) {
   
   .good {
-    /* width:17vw; */
+
     top: 83%;
     left: 47%;
     position: absolute;
 
-    /* margin: 3px; */
-    /* padding: 3px; */
+
     text-align: center;
 
     width: 6vw;
@@ -1674,8 +1673,7 @@ nav.globalMenuSp.active {
     cursor: pointer;
   }
   .good-ni {
-    /* width:13vw; */
-    /* height: auto; */
+
     position: absolute;
     top: 72%;
     left: 22%;
@@ -1690,7 +1688,7 @@ nav.globalMenuSp.active {
     cursor: pointer;
   }
   .good-san {
-    /* width:16vw; */
+
     position: absolute;
     top: 81%;
     left: 25%;
@@ -1703,7 +1701,7 @@ nav.globalMenuSp.active {
     border-radius: 12px;
     overflow: hidden;
     cursor: pointer;
-  }
+  } */
   /* .good-si {
     width:12vw;
     position: absolute;
@@ -1719,7 +1717,7 @@ nav.globalMenuSp.active {
     overflow: hidden;
     cursor: pointer;
   } */
-  .good-go {
+  /* .good-go {
     width:17vw;
     position: absolute;
     top: 71%;
@@ -1781,4 +1779,4 @@ nav.globalMenuSp.active {
     overflow: hidden;
     cursor: pointer;
   }
-}
+} */
