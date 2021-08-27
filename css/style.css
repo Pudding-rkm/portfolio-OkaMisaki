@@ -1652,3 +1652,133 @@ nav.globalMenuSp.active {
     padding: 50px 0;
   }
 }
+
+@media screen and (max-width: 1440px) {
+  
+  .good {
+    /* width:17vw; */
+    top: 83%;
+    left: 47%;
+    position: absolute;
+
+    /* margin: 3px; */
+    /* padding: 3px; */
+    text-align: center;
+
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-ni {
+    /* width:13vw; */
+    /* height: auto; */
+    position: absolute;
+    top: 72%;
+    left: 22%;
+    text-align: center;
+
+    width: 4vw;
+    height: 4vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-san {
+    /* width:16vw; */
+    position: absolute;
+    top: 81%;
+    left: 25%;
+    text-align: center;
+
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  /* .good-si {
+    width:12vw;
+    position: absolute;
+    top: 67.5%;
+    left: 38.5%;
+    text-align: center;
+
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  } */
+  .good-go {
+    width:17vw;
+    position: absolute;
+    top: 71%;
+    left: 53.5%;
+    text-align: center;
+
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+
+  }
+  .good-roku {
+    width:17vw;
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    text-align: center;
+
+    width: 6vw;
+    height: 6vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .good-nana {
+    width:14.5vw;
+    position: absolute;
+    top: 75.5%;
+    left: 38%;
+    text-align: center;
+
+    width: 14.5vw;
+    height: 14.5vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .good-hati {
+    width:16vw;
+    position: absolute;
+    top: 64%;
+    left: 66%;
+    text-align: center;
+
+    width: 16vw;
+    height: 16vw;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+}
