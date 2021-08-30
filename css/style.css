@@ -993,9 +993,10 @@ label input:checked ~ img,label input:checked ~ a img{
 
 .fv-intro{
   font-size: 11px;
-  padding-top: 5vw;
+  padding-top: 0vw;
   margin-left: 6vw;
-  width: 90vw;
+  margin-right: 6vw;
+  width: 19vw;
   /* padding-right: 40px; */
 }
 
@@ -1037,14 +1038,14 @@ label input:checked ~ img,label input:checked ~ a img{
 
 .data{
   font-weight: 300;
-  margin-bottom: 10%;
+  margin-bottom: 30%;
   line-height: 1.5;
 }
 
 
 
 .pc{
-  width: 65vw;
+  width: 60vw;
   /* height: 35vw; */
   margin: auto;
 }
@@ -1328,6 +1329,20 @@ nav.globalMenuSp.active {
     position: relative;
   }
 
+
+  .fv-intro{
+    font-size: 11px;
+    padding-top: 5vw;
+    margin-left: 6vw;
+    width: 90vw;
+    /* padding-right: 40px; */
+  }
+
+  .data{
+    font-weight: 300;
+    margin-bottom: 10%;
+    line-height: 1.5;
+  }
 
 
 
