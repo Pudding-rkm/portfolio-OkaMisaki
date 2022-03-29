@@ -547,7 +547,7 @@ body {
   }
   .good-si {
     /* width:6vw; */
-    position: absolute;
+    position: absolute; 
     top: 48%;
     left: 16%;
     text-align: center;
