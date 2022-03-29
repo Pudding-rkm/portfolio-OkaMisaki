@@ -1400,12 +1400,12 @@ nav.globalMenuSp.active {
   .good-si {
     width:12vw;
     position: absolute;
-    top: 67.5%;
-    left: 38.5%;
     text-align: center;
 
     width: 12vw;
     height: 12vw;
+    width: 15vw;
+    height: 15vw;
     margin: 0 auto;
     display: block;
     border-radius: 12px;
