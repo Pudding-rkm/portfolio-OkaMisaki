@@ -548,13 +548,13 @@ body {
   .good-si {
     /* width:6vw; */
     position: absolute;
-    top: 67%;
-    left: 19.5%;
+    top: 48%;
+    left: 16%;
     text-align: center;
   
     text-align: center;
-    width: 6vw;
-      height: 6vw;
+    width: 8vw;
+      height: 8vw;
       margin: 0 auto;
       display: block;
       border-radius: 12px;
@@ -1400,12 +1400,12 @@ body {
     .good-si {
       width:12vw;
       position: absolute;
-      top: 67.5%;
-      left: 38.5%;
+      top: 65%;
+      left: 32.5%;
       text-align: center;
   
-      width: 12vw;
-      height: 12vw;
+      width: 15vw;
+      height: 15vw;
       margin: 0 auto;
       display: block;
       border-radius: 12px;
