@@ -1717,13 +1717,13 @@ body {
       overflow: hidden;
       cursor: pointer;
     } */
-    /* .good-si {
+    .good-si {
       width:12vw;
       position: absolute;
       top: 67.5%;
       left: 38.5%;
       text-align: center;
-  /* 
+  
       width: 6vw;
       height: 6vw;
       margin: 0 auto;
