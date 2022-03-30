@@ -1716,12 +1716,11 @@ body {
       border-radius: 12px;
       overflow: hidden;
       cursor: pointer;
-    } */
+    } 
     .good-si {
-      width:12vw;
       position: absolute;
-      top: 67.5%;
-      left: 38.5%;
+      top: 43%;
+      left: 17%;
       text-align: center;
   
       width: 6vw;
@@ -1731,7 +1730,7 @@ body {
       border-radius: 12px;
       overflow: hidden;
       cursor: pointer;
-    } */
+    } 
     .good-go {
   
       position: absolute;
